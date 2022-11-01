@@ -63,6 +63,7 @@ def sprediction (input_data):
 
 
 def main ():
+    col1.title('Startup Success Prediction Application')
     relationships = st.number_input("Relationships", 0, 120)
     
     funding_rounds = st.number_input("Funding Rounds", 0, 120)
