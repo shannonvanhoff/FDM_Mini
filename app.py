@@ -56,9 +56,9 @@ def sprediction (input_data):
     print(prediction)
     
     if (prediction[0]==0):
-        return 'unsuccessful'
+        return 'The startup will be unsuccessful'
     else:
-        return'successful'
+        return'The startup will be successful'
 
 
 
